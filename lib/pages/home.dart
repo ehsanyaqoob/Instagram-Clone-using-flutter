@@ -4,7 +4,17 @@ import 'package:instagramclone/utilis/userpost.dart';
 import '../utilis/boublestories.dart';
 
 class UserHome extends StatelessWidget {
-  final List people = ['Ahsan', 'Daniyal', 'Ubaid', 'Qasim', 'Bilal', '👋👋'];
+  final List people = [
+    'Ahsan',
+    'Daniyal',
+    'Ubaid',
+    'Qasim',
+    'Bilal',
+    '👋👋',
+    'Asim',
+    'Saqib',
+    'Ali'
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(

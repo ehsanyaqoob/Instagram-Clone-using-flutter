@@ -24,9 +24,9 @@ class _HomePageState extends State<HomePage> {
 // diff pages to navigate
   final List<Widget> _children = [
     UserHome(),
+    UserSearch(),
     UserReels(),
     UserShop(),
-    UserSearch(),
     UserAccount(),
   ];
 

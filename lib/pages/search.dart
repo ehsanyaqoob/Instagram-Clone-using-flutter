@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../utilis/explorgrid.dart';
+
 class UserSearch extends StatelessWidget {
   const UserSearch({Key? key}) : super(key: key);
 
@@ -25,7 +27,7 @@ class UserSearch extends StatelessWidget {
                               style: TextStyle(color: Colors.grey[500])))
                     ],
                   )))),
-      body: Center(child: Text('SEARCH')),
+      body: ExploreGrid(),
     );
   }
 }
